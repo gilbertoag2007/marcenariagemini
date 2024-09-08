@@ -7,11 +7,10 @@ Este repositório contém o código fonte do site que possibilita gerar planos d
 O usuário só precisa informar umas poucas informações para que o site calcule a quantidade de madeiras e suas respectivas dimensões.
 
 # Tecnologias Utilizadas
-HTML: Estrutura básica das páginas.
-CSS: Estilização visual do site.
-JavaScript: Interatividade e funcionalidades dinâmicas.
+* HTML: Estrutura básica das páginas.
+* CSS: Estilização visual do site.
+* JavaScript: Interatividade e funcionalidades dinâmicas.
 
-# Estrutura do Projeto
 # Deploy
 Abra seu navegador e acesse http://localhost:3000 (ou a porta especificada no seu script de inicialização).
 
