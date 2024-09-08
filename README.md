@@ -1,4 +1,4 @@
-# marcenariagemini
+# Marcenaria Gemini
 Este repositório contém o código fonte de um site que possibilita gerar planos de corte de projetos de móveis para que marceneiros amadores possam construir seus proprios móveis.
 
 # Descrição do Projeto
