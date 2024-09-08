@@ -1,8 +1,6 @@
 // prompt para criar o código html inicial
 Crie um código .html de uma página index que tenha a as tags para para arquivos externos de css e javascript. Neste código também deve ter: a tag de rodapé com texto padrão 
 
-
-
 // prompt para criar os campos e botões de parâmetros altura, largura e profundidade.
 
 Crie um código html para apresentar três caixas de textos para receber valores numéricos correspondentes a largura, altura e profundidade. Em cada caixa de  texto deve ter uma breve explicação (placeholder) sobre o valor esperado. Além das caixas de texto, deve ser criado um botão chamado Gerar Plano de Corte com  chamada via atributo on click do javascript a função gerarPlanoDeCorte recebendo os três parâmentros passados. Crie também um código CSS para estilizar os 3 campos texto e o botão com cantos levemente arredondados.  
@@ -10,9 +8,7 @@ Crie um código html para apresentar três caixas de textos para receber valores
 // prompt para tirar dúvidas sobre section html
 Para que serve uma section html?
 
-
 // prompts para tirar dúvidas pontuais
-
 
 //Crie um codigo html onde eu possa fazer uma seleção entre duas opções.
 // Existe outra tag html que apresente na tela as  opções antes de escolher?
@@ -21,15 +17,11 @@ Para que serve uma section html?
 
 //Qual atributo do html torna o input text obrigatório? 
 
-
 // Como verificar se uma variável é diferente de nula ou diferente de vazia em javascript?
 
 //Como colocar um texto em negrito em html?
 
-
-
 //Crie um código HTML de uma página index que tenha menus, conteúdo e rodapé. Estilize ela com cores e fonte relacionadas a madeira.O background da página deve ser uma imagem opaca e sofisticada de algo relacionado a empresa de móveis planejados.
-
 
 //Crie um código css para estilizar um menu horizontal de uma página html de moveis planejados.
 
@@ -38,7 +30,6 @@ Para que serve uma section html?
 //Qual tag html é utilizada para agrupar campos e apresentá-los com um título?
 
 // Crie uma estilização CSS para apresentar horizontalmente  3 campos textos(input text) e acima deles 3 labels(label).
-
 
 //Qual é o atributo que posso colocor em um div html para que ela não seja exibida?
 
@@ -50,6 +41,9 @@ Para que serve uma section html?
 
 //Crie um codigo html e css para apresentar um rodapé em uma página 
 
+//crie uma imagem que sirva como background de um site de moveis planejados mostrando ferramentas como trena, esquadro em L, régua, parafusadeira, martelo, parafusos e chave de fenda.
+
+//Gere o texto de um arquivo readme.md para o git de um site para móveis planejados. O site foi desenvolvido uitilizado HTML, CSS e javascript.
 
 
 

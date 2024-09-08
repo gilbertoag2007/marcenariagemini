@@ -9,77 +9,68 @@
 </head>
 
 <body>
-
     <header>
-
         <h1>Marcenaria Gemini</h1>
-
-
-
-        
-
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+
             </ul>
         </nav>
     </header>
 
-
     <main>
-
-  
         <section>
 
-            <!--<h2>Dimensões do Móvel Desejado</h2> -->
             <fieldset>
-                <legend>Dimensões do Móvel Desejado</legend>
+                <legend><strong>Tipo de Móvel</strong></legend>
+                <input type="radio" id="modelo1" name="modelo" value="1" checked>
+                <label for="modelo1">Armário multiuso simples</label><br><br>
+                
+                <input type="radio" id="modelo2" name="modelo" value="2" disabled>
+                <label for="modelo2">Armário com gavetas (Em breve)</label><br><br>
+                
+                <input type="radio" id="modelo3" name="modelo" value="3" disabled>
+                <label for="modelo3">Armario de cozinha simples (Em breve)</label><br> <br>
+                
+                <input type="radio" id="modelo4" name="modelo" value="4" disabled>
+                <label for="modelo4">Armario de cozinha com gavetas (Em breve)</label><br> <br>
+            </fieldset>
+
+            <fieldset>
+                <legend><strong></m>Dimensões do Móvel</strong></legend>
                 <div id="dimensoes-cliente">
                     <label for="largura">Largura:</label>
-                    <input type="number" id="largura" name="largura" placeholder="Digite a largura em cm"
-                        class="paramentro">
+                    <input type="number" id="largura" name="largura" placeholder="Digite a largura em cm" class="paramentro" min="60" max="150">
 
                     <label for="altura">Altura:</label>
-                    <input type="number" id="altura" name="altura" placeholder="Digite a altura em cm"
-                        class="paramentro">
+                    <input type="number" id="altura" name="altura" placeholder="Digite a altura em cm" class="paramentro" min="75" max="230">
 
                     <label for="profundidade">Profundidade:</label>
-                    <input type="number" id="profundidade" name="profundidade" placeholder="Digite a profundidade em cm"
-                        class="paramentro">
+                    <input type="number" id="profundidade" name="profundidade" placeholder="Digite a profundidade em cm" class="paramentro" min="10" max="100">
                 </div>
             </fieldset>
 
             <fieldset>
-                <legend>Características do móvel</legend>
-
-                <input type="radio" id="modelo1" name="modelo" value="1" checked>
-                <label for="modelo1"> Armário de chão sem gavetas.</label><br>
-                <input type="radio" id="modelo2" name="modelo" value="2">
-                <label for="modelo2">Com gavetas</label><br> <br>
-                
+                <legend><strong>Características do Móvel</strong></legend>
                 <label for="prateleiras">Prateleiras:</label>
-                <input type="number" id="prateleiras" name="prateleiras" placeholder="Digite a quantidade de prateleiras."
-                        class="paramentro">
+                <input type="number" id="prateleiras" name="prateleiras" placeholder="Digite a quantidade de prateleiras." class="paramentro" min="0" max="5">
             </fieldset>
 
-
             <button type="button" onclick="gerarPlanoDeCorte()" class="botao">Gerar Plano de Corte</button>
-      
-            <div id="resultado-plano-corte">
             
-                    
-                
+            <div id="resultado-plano-corte"></div>
+
+            <div id="container-imagem"></div>
     </main>
 
-
     <footer>
-        <p>&copy; 2024 - Todos os direitos reservados.</p>
+        <p>&copy; 2024 - Marcenaria Gemini - Todos os direitos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 
 </html>
